@@ -1,6 +1,6 @@
 # WebScrapping, Leagues - Country Flags
 
-![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/261/giphy_hodor.gif)
+![alt text](https://github.com/diegojojoayandun/js_rapidapi/blob/bc5a8fd813616f0d91ec07bf8efc44aff62f156c/country_flag/files/Screenshot_2.png)
 
 This project is meant for educational purposes only, NodeJS script which use "request" for web scrapping to search and download a file in SVG format correspondig with the country flag, using a Endpoint, API.
 
