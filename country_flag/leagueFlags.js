@@ -8,7 +8,7 @@ const options = {
   url: 'https://api-football-v1.p.rapidapi.com/v3/leagues',
   headers: {
     'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com',
-    'X-RapidAPI-Key': 'da4bf87245msh4ceaca1cccafa8bp138615jsne53ec13407e0',
+    'X-RapidAPI-Key': 'YOURKEY',
     useQueryString: true
   }
 };
