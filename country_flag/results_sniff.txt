@@ -1,0 +1,253 @@
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+08:00:49.634870 IP (tos 0x0, ttl 1, id 45971, offset 0, flags [none], proto UDP (17), length 203)
+    DESKTOP-66U2U7O.mshome.net.49676 > 239.255.255.250.1900: [udp sum ok] UDP, length 175
+08:00:49.647427 IP (tos 0x0, ttl 64, id 58048, offset 0, flags [DF], proto UDP (17), length 74)
+    172.22.49.37.56844 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb99a -> 0x8767!] 60572+ PTR? 250.255.255.239.in-addr.arpa. (46)
+08:00:49.655446 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 60) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+08:00:49.658680 IP (tos 0x0, ttl 1, id 36901, offset 0, flags [none], proto UDP (17), length 80)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+08:00:49.676367 IP (tos 0x0, ttl 1, id 36902, offset 0, flags [none], proto UDP (17), length 80)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+08:00:49.680404 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 60) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+08:00:50.635046 IP (tos 0x0, ttl 1, id 45972, offset 0, flags [none], proto UDP (17), length 203)
+    DESKTOP-66U2U7O.mshome.net.49676 > 239.255.255.250.1900: [udp sum ok] UDP, length 175
+08:00:50.666609 IP (tos 0x0, ttl 1, id 36903, offset 0, flags [none], proto UDP (17), length 80)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+08:00:50.673111 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 60) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+08:00:50.682195 IP (tos 0x0, ttl 1, id 36904, offset 0, flags [none], proto UDP (17), length 80)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+08:00:50.682343 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 60) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 250.255.255.239.in-addr.arpa.local. (52)
+08:00:50.706095 IP (tos 0x0, ttl 128, id 13199, offset 0, flags [none], proto UDP (17), length 131)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.56844: [udp sum ok] 60572 NXDomain q: PTR? 250.255.255.239.in-addr.arpa. 0/1/0 ns: 239.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040409 7200 3600 604800 3600 (103)
+08:00:50.706249 IP (tos 0x0, ttl 64, id 58145, offset 0, flags [DF], proto UDP (17), length 70)
+    172.22.49.37.50786 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb996 -> 0xf732!] 52258+ PTR? 1.48.22.172.in-addr.arpa. (42)
+08:00:50.707172 IP (tos 0x0, ttl 128, id 13200, offset 0, flags [none], proto UDP (17), length 134)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.50786: [udp sum ok] 52258- q: PTR? 1.48.22.172.in-addr.arpa. 1/0/0 1.48.22.172.in-addr.arpa. PTR DESKTOP-66U2U7O.mshome.net. (106)
+08:00:50.707416 IP (tos 0x0, ttl 64, id 58146, offset 0, flags [DF], proto UDP (17), length 71)
+    172.22.49.37.49900 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb997 -> 0x97be!] 39269+ PTR? 37.49.22.172.in-addr.arpa. (43)
+08:00:50.708700 IP (tos 0x0, ttl 1, id 36905, offset 0, flags [none], proto UDP (17), length 77)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 37.49.22.172.in-addr.arpa.local. (49)
+08:00:50.708995 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 57) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 37.49.22.172.in-addr.arpa.local. (49)
+08:00:50.710558 IP (tos 0x0, ttl 128, id 13201, offset 0, flags [none], proto UDP (17), length 131)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.56844: [udp sum ok] 60572 NXDomain q: PTR? 250.255.255.239.in-addr.arpa. 0/1/0 ns: 239.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040409 7200 3600 604800 3600 (103)
+08:00:50.710590 IP (tos 0xc0, ttl 64, id 49938, offset 0, flags [none], proto ICMP (1), length 159)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 56844 unreachable, length 139
+        IP (tos 0x0, ttl 128, id 13201, offset 0, flags [none], proto UDP (17), length 131)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.56844: [udp sum ok] 60572 NXDomain q: PTR? 250.255.255.239.in-addr.arpa. 0/1/0 ns: 239.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040409 7200 3600 604800 3600 (103)[|icmp]
+08:00:51.643216 IP (tos 0x0, ttl 1, id 45973, offset 0, flags [none], proto UDP (17), length 203)
+    DESKTOP-66U2U7O.mshome.net.49676 > 239.255.255.250.1900: [udp sum ok] UDP, length 175
+08:00:51.718078 IP (tos 0x0, ttl 1, id 36906, offset 0, flags [none], proto UDP (17), length 77)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 37.49.22.172.in-addr.arpa.local. (49)
+08:00:51.719098 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 57) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 37.49.22.172.in-addr.arpa.local. (49)
+08:00:52.643848 IP (tos 0x0, ttl 1, id 45974, offset 0, flags [none], proto UDP (17), length 203)
+    DESKTOP-66U2U7O.mshome.net.49676 > 239.255.255.250.1900: [udp sum ok] UDP, length 175
+08:00:53.050872 IP6 (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::215:5dff:fe4b:1e15 > ip6-allrouters: [icmp6 sum ok] ICMP6, router solicitation, length 16
+          source link-address option (1), length 8 (1): 00:15:5d:4b:1e:15
+            0x0000:  0015 5d4b 1e15
+08:00:53.712713 IP (tos 0x0, ttl 128, id 13202, offset 0, flags [none], proto UDP (17), length 131)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.56844: [udp sum ok] 60572 NXDomain q: PTR? 250.255.255.239.in-addr.arpa. 0/1/0 ns: 239.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040409 7200 3600 604800 3600 (103)
+08:00:53.712745 IP (tos 0xc0, ttl 64, id 50049, offset 0, flags [none], proto ICMP (1), length 159)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 56844 unreachable, length 139
+        IP (tos 0x0, ttl 128, id 13202, offset 0, flags [none], proto UDP (17), length 131)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.56844: [udp sum ok] 60572 NXDomain q: PTR? 250.255.255.239.in-addr.arpa. 0/1/0 ns: 239.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040409 7200 3600 604800 3600 (103)[|icmp]
+08:00:53.715793 IP (tos 0x0, ttl 128, id 13203, offset 0, flags [none], proto UDP (17), length 131)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.56844: [udp sum ok] 60572 NXDomain q: PTR? 250.255.255.239.in-addr.arpa. 0/1/0 ns: 239.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040409 7200 3600 604800 3600 (103)
+08:00:53.715818 IP (tos 0xc0, ttl 64, id 50050, offset 0, flags [none], proto ICMP (1), length 159)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 56844 unreachable, length 139
+        IP (tos 0x0, ttl 128, id 13203, offset 0, flags [none], proto UDP (17), length 131)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.56844: [udp sum ok] 60572 NXDomain q: PTR? 250.255.255.239.in-addr.arpa. 0/1/0 ns: 239.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040409 7200 3600 604800 3600 (103)[|icmp]
+08:00:54.650878 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has DESKTOP-66U2U7O.mshome.net tell 172.22.49.37, length 28
+08:00:54.651181 ARP, Ethernet (len 6), IPv4 (len 4), Reply DESKTOP-66U2U7O.mshome.net is-at 00:15:5d:41:57:71 (oui Unknown), length 28
+08:00:55.256247 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.22.49.37 (00:15:5d:4b:1e:15 (oui Unknown)) tell DESKTOP-66U2U7O.mshome.net, length 28
+08:00:55.256256 ARP, Ethernet (len 6), IPv4 (len 4), Reply 172.22.49.37 is-at 00:15:5d:4b:1e:15 (oui Unknown), length 28
+08:00:55.712555 IP (tos 0x0, ttl 64, id 58592, offset 0, flags [DF], proto UDP (17), length 71)
+    172.22.49.37.49900 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb997 -> 0x97be!] 39269+ PTR? 37.49.22.172.in-addr.arpa. (43)
+08:01:00.718507 IP (tos 0x0, ttl 64, id 58767, offset 0, flags [DF], proto UDP (17), length 118)
+    172.22.49.37.33232 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb9c6 -> 0x4e9d!] 479+ PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (90)
+08:01:02.917525 IP (tos 0x0, ttl 64, id 58826, offset 0, flags [DF], proto UDP (17), length 70)
+    172.22.49.37.55278 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb996 -> 0x5d9b!] 35841+ PTR? 251.0.0.224.in-addr.arpa. (42)
+08:01:03.988377 IP (tos 0x0, ttl 64, id 58832, offset 0, flags [DF], proto UDP (17), length 118)
+    172.22.49.37.51394 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb9c6 -> 0x8703!] 33119+ PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+08:01:03.990785 IP (tos 0x0, ttl 1, id 36923, offset 0, flags [none], proto UDP (17), length 124)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+08:01:04.011033 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 104) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+08:01:04.011035 IP (tos 0x0, ttl 128, id 13213, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:04.011069 IP (tos 0xc0, ttl 64, id 50417, offset 0, flags [none], proto ICMP (1), length 155)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 55278 unreachable, length 135
+        IP (tos 0x0, ttl 128, id 13213, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:04.100787 IP (tos 0x0, ttl 1, id 36924, offset 0, flags [none], proto UDP (17), length 124)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+08:01:04.190422 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 104) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+08:01:04.786230 IP (tos 0x0, ttl 128, id 13214, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:04.786257 IP (tos 0xc0, ttl 64, id 50429, offset 0, flags [none], proto ICMP (1), length 210)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 33232 unreachable, length 190
+        IP (tos 0x0, ttl 128, id 13214, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:04.788999 IP (tos 0x0, ttl 128, id 13215, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:04.789024 IP (tos 0xc0, ttl 64, id 50430, offset 0, flags [none], proto ICMP (1), length 210)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 33232 unreachable, length 190
+        IP (tos 0x0, ttl 128, id 13215, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:04.997319 IP (tos 0x0, ttl 1, id 36925, offset 0, flags [none], proto UDP (17), length 124)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+08:01:04.997668 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 104) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+08:01:05.115922 IP (tos 0x0, ttl 1, id 36926, offset 0, flags [none], proto UDP (17), length 124)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+08:01:05.116253 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 104) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa.local. (96)
+08:01:05.215716 IP (tos 0x0, ttl 128, id 13216, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:05.219832 IP (tos 0x0, ttl 128, id 13217, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:05.219898 IP (tos 0xc0, ttl 64, id 50434, offset 0, flags [none], proto ICMP (1), length 210)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 51394 unreachable, length 190
+        IP (tos 0x0, ttl 128, id 13217, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:07.006336 IP (tos 0x0, ttl 128, id 13218, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:07.006399 IP (tos 0xc0, ttl 64, id 50499, offset 0, flags [none], proto ICMP (1), length 155)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 55278 unreachable, length 135
+        IP (tos 0x0, ttl 128, id 13218, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:07.148097 IP (tos 0x0, ttl 128, id 13219, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:07.148671 IP (tos 0xc0, ttl 64, id 50505, offset 0, flags [none], proto ICMP (1), length 155)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 55278 unreachable, length 135
+        IP (tos 0x0, ttl 128, id 13219, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:07.787792 IP (tos 0x0, ttl 128, id 13220, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:07.787853 IP (tos 0xc0, ttl 64, id 50538, offset 0, flags [none], proto ICMP (1), length 210)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 33232 unreachable, length 190
+        IP (tos 0x0, ttl 128, id 13220, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:07.790499 IP (tos 0x0, ttl 128, id 13221, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:07.790561 IP (tos 0xc0, ttl 64, id 50539, offset 0, flags [none], proto ICMP (1), length 210)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 33232 unreachable, length 190
+        IP (tos 0x0, ttl 128, id 13221, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:08.010941 IP (tos 0x0, ttl 64, id 59066, offset 0, flags [DF], proto UDP (17), length 63)
+    172.22.49.37.51097 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb98f -> 0xf928!] 34009+ A? smtp.sendgrid.net. (35)
+08:01:08.010980 IP (tos 0x0, ttl 64, id 59067, offset 0, flags [DF], proto UDP (17), length 63)
+    172.22.49.37.51097 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb98f -> 0x1728!] 19418+ AAAA? smtp.sendgrid.net. (35)
+08:01:08.035315 IP (tos 0x0, ttl 128, id 13222, offset 0, flags [none], proto UDP (17), length 96)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51097: [udp sum ok] 34009- q: A? smtp.sendgrid.net. 1/0/0 smtp.sendgrid.net. A 167.89.123.53 (68)
+08:01:08.061285 IP (tos 0x0, ttl 128, id 13223, offset 0, flags [none], proto UDP (17), length 123)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51097: [udp sum ok] 19418 q: AAAA? smtp.sendgrid.net. 0/1/0 ns: sendgrid.net. SOA ns10.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2011234844 14400 600 1728000 180 (95)
+08:01:08.083722 IP (tos 0x10, ttl 64, id 9752, offset 0, flags [DF], proto TCP (6), length 60)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [S], cksum 0xfff8 (incorrect -> 0x9991), seq 3738931306, win 64240, options [mss 1460,sackOK,TS val 1604787156 ecr 0,nop,wscale 7], length 0
+08:01:08.083914 IP (tos 0x0, ttl 64, id 59072, offset 0, flags [DF], proto UDP (17), length 72)
+    172.22.49.37.50877 > DESKTOP-66U2U7O.mshome.net.domain: [bad udp cksum 0xb998 -> 0x4efd!] 4328+ PTR? 53.123.89.167.in-addr.arpa. (44)
+08:01:08.085689 IP (tos 0x0, ttl 1, id 36927, offset 0, flags [none], proto UDP (17), length 78)
+    DESKTOP-66U2U7O.mshome.net.mdns > 224.0.0.251.mdns: [udp sum ok] 0 PTR (QM)? 53.123.89.167.in-addr.arpa.local. (50)
+08:01:08.105916 IP6 (flowlabel 0xfe0d5, hlim 1, next-header UDP (17) payload length: 58) DESKTOP-66U2U7O.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? 53.123.89.167.in-addr.arpa.local. (50)
+08:01:08.107155 IP (tos 0x0, ttl 128, id 13224, offset 0, flags [none], proto UDP (17), length 151)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.50877: [udp sum ok] 4328- q: PTR? 53.123.89.167.in-addr.arpa. 1/0/0 53.123.89.167.in-addr.arpa. PTR o16789123x53.outbound-mail.sendgrid.net. (123)
+08:01:08.143427 IP (tos 0x0, ttl 128, id 13225, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:08.143482 IP (tos 0xc0, ttl 64, id 50553, offset 0, flags [none], proto ICMP (1), length 210)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 51394 unreachable, length 190
+        IP (tos 0x0, ttl 128, id 13225, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:08.146087 IP (tos 0x0, ttl 128, id 13226, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:08.146157 IP (tos 0xc0, ttl 64, id 50554, offset 0, flags [none], proto ICMP (1), length 210)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 51394 unreachable, length 190
+        IP (tos 0x0, ttl 128, id 13226, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:08.188445 IP (tos 0x20, ttl 50, id 0, offset 0, flags [DF], proto TCP (6), length 60)
+    o16789123x53.outbound-mail.sendgrid.net.submission > 172.22.49.37.50854: Flags [S.], cksum 0xfeb4 (correct), seq 2581755157, ack 3738931307, win 28960, options [mss 1440,sackOK,TS val 246548228 ecr 1604787156,nop,wscale 9], length 0
+08:01:08.188549 IP (tos 0x10, ttl 64, id 9753, offset 0, flags [DF], proto TCP (6), length 52)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [.], cksum 0xfff0 (incorrect -> 0x9c31), seq 1, ack 1, win 502, options [nop,nop,TS val 1604787260 ecr 246548228], length 0
+08:01:08.188645 IP (tos 0x10, ttl 64, id 9754, offset 0, flags [DF], proto TCP (6), length 88)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [P.], cksum 0x0015 (incorrect -> 0x24bb), seq 1:37, ack 1, win 502, options [nop,nop,TS val 1604787260 ecr 246548228], length 36
+08:01:08.316682 IP (tos 0x20, ttl 50, id 29307, offset 0, flags [DF], proto TCP (6), length 52)
+    o16789123x53.outbound-mail.sendgrid.net.submission > 172.22.49.37.50854: Flags [.], cksum 0x9d60 (correct), seq 1, ack 37, win 57, options [nop,nop,TS val 246548334 ecr 1604787260], length 0
+08:01:08.316735 IP (tos 0x20, ttl 50, id 29308, offset 0, flags [DF], proto TCP (6), length 101)
+    o16789123x53.outbound-mail.sendgrid.net.submission > 172.22.49.37.50854: Flags [P.], cksum 0x103f (correct), seq 1:50, ack 37, win 57, options [nop,nop,TS val 246548334 ecr 1604787260], length 49
+08:01:08.316736 IP (tos 0x20, ttl 50, id 29309, offset 0, flags [DF], proto TCP (6), length 182)
+    o16789123x53.outbound-mail.sendgrid.net.submission > 172.22.49.37.50854: Flags [P.], cksum 0xb245 (correct), seq 50:180, ack 37, win 57, options [nop,nop,TS val 246548334 ecr 1604787260], length 130
+08:01:08.316764 IP (tos 0x10, ttl 64, id 9755, offset 0, flags [DF], proto TCP (6), length 52)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [.], cksum 0xfff0 (incorrect -> 0x9af1), seq 37, ack 50, win 502, options [nop,nop,TS val 1604787389 ecr 246548334], length 0
+08:01:08.317034 IP (tos 0x10, ttl 64, id 9756, offset 0, flags [DF], proto TCP (6), length 52)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [.], cksum 0xfff0 (incorrect -> 0x9a70), seq 37, ack 180, win 501, options [nop,nop,TS val 1604787389 ecr 246548334], length 0
+08:01:09.833367 IP (tos 0x10, ttl 64, id 9757, offset 0, flags [DF], proto TCP (6), length 64)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [P.], cksum 0xfffc (incorrect -> 0xb846), seq 37:49, ack 180, win 501, options [nop,nop,TS val 1604788905 ecr 246548334], length 12
+08:01:09.936971 IP (tos 0x20, ttl 50, id 29310, offset 0, flags [DF], proto TCP (6), length 70)
+    o16789123x53.outbound-mail.sendgrid.net.submission > 172.22.49.37.50854: Flags [P.], cksum 0x2629 (correct), seq 180:198, ack 49, win 57, options [nop,nop,TS val 246549978 ecr 1604788905], length 18
+08:01:09.937002 IP (tos 0x10, ttl 64, id 9758, offset 0, flags [DF], proto TCP (6), length 52)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [.], cksum 0xfff0 (incorrect -> 0x8d92), seq 49, ack 198, win 501, options [nop,nop,TS val 1604789009 ecr 246549978], length 0
+08:01:10.022041 IP (tos 0x0, ttl 128, id 13227, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:10.022438 IP (tos 0x0, ttl 128, id 13228, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:10.051416 IP (tos 0xc0, ttl 64, id 50634, offset 0, flags [none], proto ICMP (1), length 155)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 55278 unreachable, length 135
+        IP (tos 0x0, ttl 128, id 13227, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:10.051427 IP (tos 0xc0, ttl 64, id 50635, offset 0, flags [none], proto ICMP (1), length 155)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 55278 unreachable, length 135
+        IP (tos 0x0, ttl 128, id 13228, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:10.792601 IP (tos 0x0, ttl 128, id 13229, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:10.795390 IP (tos 0x0, ttl 128, id 13230, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.33232: [udp sum ok] 479 NXDomain q: PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:10.966823 IP (tos 0x0, ttl 128, id 13231, offset 0, flags [none], proto UDP (17), length 71)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.49900: [udp sum ok] 39269 ServFail q: PTR? 37.49.22.172.in-addr.arpa. 0/0/0 (43)
+08:01:10.966857 IP (tos 0x0, ttl 128, id 13232, offset 0, flags [none], proto UDP (17), length 71)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.49900: [udp sum ok] 39269 ServFail q: PTR? 37.49.22.172.in-addr.arpa. 0/0/0 (43)
+08:01:11.157309 IP (tos 0x0, ttl 128, id 13233, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:11.157383 IP (tos 0xc0, ttl 64, id 50737, offset 0, flags [none], proto ICMP (1), length 210)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 51394 unreachable, length 190
+        IP (tos 0x0, ttl 128, id 13233, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:11.200861 IP (tos 0x0, ttl 128, id 13234, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:12.036887 IP (tos 0x10, ttl 64, id 9759, offset 0, flags [DF], proto TCP (6), length 66)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [P.], cksum 0xfffe (incorrect -> 0x432b), seq 49:63, ack 198, win 501, options [nop,nop,TS val 1604791109 ecr 246549978], length 14
+08:01:12.140644 IP (tos 0x20, ttl 50, id 29311, offset 0, flags [DF], proto TCP (6), length 70)
+    o16789123x53.outbound-mail.sendgrid.net.submission > 172.22.49.37.50854: Flags [P.], cksum 0xf1ea (correct), seq 198:216, ack 63, win 57, options [nop,nop,TS val 246552181 ecr 1604791109], length 18
+08:01:12.140718 IP (tos 0x10, ttl 64, id 9760, offset 0, flags [DF], proto TCP (6), length 52)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [.], cksum 0xfff0 (incorrect -> 0x7c3c), seq 63, ack 216, win 501, options [nop,nop,TS val 1604791212 ecr 246552181], length 0
+08:01:13.013565 IP (tos 0x0, ttl 128, id 13235, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:13.013634 IP (tos 0xc0, ttl 64, id 50921, offset 0, flags [none], proto ICMP (1), length 155)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 55278 unreachable, length 135
+        IP (tos 0x0, ttl 128, id 13235, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:13.016372 IP (tos 0x0, ttl 128, id 13236, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:13.016437 IP (tos 0xc0, ttl 64, id 50922, offset 0, flags [none], proto ICMP (1), length 155)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 55278 unreachable, length 135
+        IP (tos 0x0, ttl 128, id 13236, offset 0, flags [none], proto UDP (17), length 127)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.55278: [udp sum ok] 35841 NXDomain q: PTR? 251.0.0.224.in-addr.arpa. 0/1/0 ns: 224.in-addr.arpa. SOA sns.dns.icann.org. noc.dns.icann.org. 2022040500 7200 3600 604800 3600 (99)
+08:01:14.054310 IP (tos 0x10, ttl 64, id 9761, offset 0, flags [DF], proto TCP (6), length 74)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [P.], cksum 0x0007 (incorrect -> 0xd716), seq 63:85, ack 216, win 501, options [nop,nop,TS val 1604793126 ecr 246552181], length 22
+08:01:14.161275 IP (tos 0x0, ttl 128, id 13237, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:14.161328 IP (tos 0xc0, ttl 64, id 50935, offset 0, flags [none], proto ICMP (1), length 210)
+    172.22.49.37 > DESKTOP-66U2U7O.mshome.net: ICMP 172.22.49.37 udp port 51394 unreachable, length 190
+        IP (tos 0x0, ttl 128, id 13237, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:14.164304 IP (tos 0x0, ttl 128, id 13238, offset 0, flags [none], proto UDP (17), length 182)
+    DESKTOP-66U2U7O.mshome.net.domain > 172.22.49.37.51394: [udp sum ok] 33119 NXDomain q: PTR? 5.1.e.1.b.4.e.f.f.f.d.5.5.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. 0/1/0 ns: ip6.arpa. SOA b.ip6-servers.arpa. nstld.iana.org. 2022033231 1800 900 604800 3600 (154)
+08:01:14.187323 IP (tos 0x20, ttl 50, id 29312, offset 0, flags [DF], proto TCP (6), length 104)
+    o16789123x53.outbound-mail.sendgrid.net.submission > 172.22.49.37.50854: Flags [P.], cksum 0x822b (correct), seq 216:268, ack 85, win 57, options [nop,nop,TS val 246554228 ecr 1604793126], length 52
+08:01:14.187792 IP (tos 0x20, ttl 50, id 29313, offset 0, flags [DF], proto TCP (6), length 52)
+    o16789123x53.outbound-mail.sendgrid.net.submission > 172.22.49.37.50854: Flags [F.], cksum 0x6e34 (correct), seq 268, ack 85, win 57, options [nop,nop,TS val 246554228 ecr 1604793126], length 0
+08:01:14.187841 IP (tos 0x10, ttl 64, id 9762, offset 0, flags [DF], proto TCP (6), length 52)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [.], cksum 0xfff0 (incorrect -> 0x6bf3), seq 85, ack 268, win 501, options [nop,nop,TS val 1604793260 ecr 246554228], length 0
+08:01:14.188375 IP (tos 0x10, ttl 64, id 9763, offset 0, flags [DF], proto TCP (6), length 52)
+    172.22.49.37.50854 > o16789123x53.outbound-mail.sendgrid.net.submission: Flags [F.], cksum 0xfff0 (incorrect -> 0x6bf1), seq 85, ack 269, win 501, options [nop,nop,TS val 1604793260 ecr 246554228], length 0
+08:01:14.293382 IP (tos 0x20, ttl 50, id 29314, offset 0, flags [DF], proto TCP (6), length 52)
+    o16789123x53.outbound-mail.sendgrid.net.submission > 172.22.49.37.50854: Flags [.], cksum 0x6d44 (correct), seq 269, ack 86, win 57, options [nop,nop,TS val 246554333 ecr 1604793260], length 0
+
+^C112 packets captured
+160 packets received by filter
+48 packets dropped by kernel
